@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    height: 500px;
+    width: auto;
+    align-items: center;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://subsites.chinadaily.com.cn/yunnanuniversity/img/attachement/jpg/site48/20230420/16819711394561.jpg");
+}
+
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+    float: right;
+}
+ul li{
+    display: inline-block;
+    margin: 5px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #fff;
+    color: rgb(34, 32, 32);
+    border: 1px solid #fff;
+}
+.title{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+}
+.button{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+}
+.btn{
+    text-decoration: none;
+    padding: 5px;
+    color:white;
+    background-color: rgb(25, 63, 97);
+}
+.about{
+    margin: 30px;
+    
+}
+.about h1{
+    margin-left: 50%;
+}
+.vtitle h4{
+    margin-left: 40%; 
+    background-color: #fff;
+    text-decoration: double;
+    font-size: 30px;
+}
+.tvmain{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;  
+    background-color: aliceblue;
+}
+.tv h2{
+    color: tomato;
+    padding: 10px;
+}
+.tv h4{
+    color: rgb(37, 36, 34);
+    padding: 5px 10px;
+}
+.tv p{
+    margin: 10px;
+}
+.apply{
+    width: 150px;
+    height: auto;
+    background-color: #3f07db;
+    text-decoration: double;
+    color: rgb(245, 242, 242);
+    margin: 10px 15px;
+}
+.tvmain img{
+    width: 500px;
+    height: auto;
+    float: right;
+}
+.works h1{
+    margin-left: 40%;
+    margin-top: 15px;
+}
+.works h3{
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.display{
+    margin: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.display img{
+    width: 100%;
+    height: auto;
+}
+.card {
+    box-shadow: 5px 4px 8px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 0 20px;
+    border-radius: 29px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(216, 91, 91, 0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+.card p{
+    margin-top: 8px;
+}
+.card h5{
+    margin-left: 85px;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+.head{
+    background-color: white;
+}
+.final{
+    margin: 80px 30px 30px;
+    background-color: rgb(17, 0, 255);
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+
+}
